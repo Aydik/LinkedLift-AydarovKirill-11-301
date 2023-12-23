@@ -26,7 +26,7 @@ public class ElevatorManager implements CheckFree, Call {
         now.changeStatus();
     }
 
-    public void call(Type type) throws ElevatorNotFreeException {
+    public void call(Type type) {
         try {
             caller(type);
         } catch (ElevatorNotFreeException e) {

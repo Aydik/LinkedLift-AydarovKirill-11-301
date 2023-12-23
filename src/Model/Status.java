@@ -2,7 +2,7 @@ package Model;
 
 public enum Status {
     Busy("Занят"), Free("Свободен");
-    private String message;
+    final String message;
 
     Status(String message) {
         this.message = message;

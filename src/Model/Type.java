@@ -4,7 +4,7 @@ public enum Type {
 
     Even("чётных этажей"), Odd("нечётных этажей"), Personal("персонала");
 
-    private String message;
+    final String message;
 
     Type(String message) {
         this.message = message;
